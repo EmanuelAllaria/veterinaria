@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.title img {
+    height: 30px;
+    width: 30px;
+}
+.title h3 {
+    color: #4865FF;
+}
+.fa-bars {
+    display: none !important;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header .logo img {
+    height: 100px;
+    width: 100px;
+}
+header .nav ul {
+    display: flex;
+    list-style: none;
+}
+header .nav ul li {
+    margin-left: 20px;
+}
+header .nav ul li:nth-child(1) a {
+    color: #158DFF;
+}
+header .nav ul li:nth-child(2) a {
+    color: #4865FF;
+}
+header .nav ul li:nth-child(3) a {
+    color: #8733FF;
+}
+header .nav ul li:nth-child(4) a {
+    color: #A01FFF;
+}
+
+.bg_cachorritos {
+    width: 100%;
+    height: 500px;
+    background: url("../img/cachorritos_bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bg_cachorritos h1 {
+    font-size: 70px;
+    color: #8733FF;
+    text-align: center;
+}
+.bg_cachorritos h1 span {
+    color: #4865FF;
+}
+.bg_cachorritos p {
+    font-size: 20px;
+    color: #158DFF;
+    margin-top: 25px;
+}
+
+.container_about {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foto_about img {
+    height: 500px;
+}
+.about h2 {
+    margin-top: 15px;
+    font-size: 30px;
+    color: #8733FF;
+}
+.about p {
+    margin-top: 10px;
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title_services h2 {
+    color: #8733FF;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.title_services h3 {
+    color: #A01FFF;
+    font-size: 25px;
+    text-align: center;
+}
+.container_circles {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+}
+.container_circles .circle {
+    width: 100%;
+    height: 334px;
+    background: url("../img/services.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle img {
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+.circle h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.circle p {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.container_choose {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foto_choose img {
+    height: 500px;
+}
+.text_choose .title {
+    margin-top: 20px;
+}
+.text_choose > h3 {
+    font-size: 30px;
+    color: #8733FF;
+    margin-top: 20px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.card img {
+    height: 100px;
+    width: 100px;
+}
+.text_card p {
+    font-size: 13px;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg_newsletter {
+    margin-top: 50px;
+    width: 800px;
+    height: 400px;
+    background: url("../img/sletter_circle.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.bg_newsletter h2 {
+    font-size: 40px;
+    color: #fff;
+    margin-top: 40px;
+}
+input[type="email"] {
+    height: 50px;
+    width: 400px;
+    border: 2px solid #000;
+    background: transparent;
+}
+input[type="email"]::placeholder {
+    color: #000;
+}
+input[type="submit"] {
+    height: 50px;
+    width: 150px;
+    border: 2px solid #000;
+    background: transparent;
+}
+input[type="submit"]::placeholder {
+    color: #000;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+}
