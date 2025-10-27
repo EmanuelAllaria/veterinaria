@@ -1,175 +1,175 @@
 @media screen and (max-width: 1280px) {
-    .container_circles .circle {
-        text-align: center;
-    }
+  .container_circles .circle {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 946px) {
-    .container_circles .circle {
-        width: 150px;
-        height: 250px;
-    }
-    .foto_choose img {
-        height: 350px;
-    }
-    .circle img {
-        height: 50px;
-        width: 50px;
-    }
-    .circle h2 {
-        font-size: 13px;
-    }
-    .circle p {
-        font-size: 11px;
-    }
+  .container_circles .circle {
+    width: 150px;
+    height: 250px;
+  }
+  .foto_choose img {
+    height: 350px;
+  }
+  .circle img {
+    height: 50px;
+    width: 50px;
+  }
+  .circle h2 {
+    font-size: 13px;
+  }
+  .circle p {
+    font-size: 11px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .fa-bars {
-        display: block !important;
-        color: #000;
-    }
-    .nav {
-        position: absolute;
-        top: 104px;
-        display: none;
-        background: linear-gradient(180deg, #158DFF, #4865FF, #8733FF, #A01FFF);
-        height: 100vh;
-        width: 100%;
-    }
-    header .nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
-        margin-top: 50px;
-    }
-    header .nav ul li {
-        margin-left: 0;
-    }
-    header .nav ul li a {
-        color: #fff !important;
-        font-size: 30px;
-    }
-    .bg_cachorritos h1 {
-        font-size: 45px;
-    }
-    .bg_cachorritos p {
-        font-size: 15px;
-    }
-    #about {
-        margin-bottom: 50px;
-    }
-    .foto_about img {
-        height: 300px;
-    }
-    .container_about {
-        flex-direction: column;
-        align-items: center;
-    }
-    .text_about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    #services {
-        margin-bottom: 50px;
-    }
-    .title_services h2 {
-        color: #8733FF;
-        font-size: 20px;
-        margin-top: 20px;
-    }
-    .title_services h3 {
-        color: #A01FFF;
-        font-size: 15px;
-        text-align: center;
-    }
-    .container_circles {
-        flex-direction: column;
-    }
-    .container_choose {
-        flex-direction: column;
-    }
-    .text_choose {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .bg_newsletter {
-        width: 500px;
-        height: 250px;
-    }
-    .bg_newsletter h2 {
-        font-size: 20px;
-    }
-    input[type="email"] {
-        height: 40px;
-        width: 200px;
-    }
-    input[type="submit"] {
-        height: 40px;
-        width: 90px;
-        border: 2px solid #000;
-        background: transparent;
-    }
+  .fa-bars {
+    display: block !important;
+    color: #000;
+  }
+  .nav {
+    position: absolute;
+    top: 104px;
+    display: none;
+    background: linear-gradient(180deg, #158dff, #4865ff, #8733ff, #a01fff);
+    height: 100vh;
+    width: 100%;
+  }
+  header .nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  header .nav ul li {
+    margin-left: 0;
+  }
+  header .nav ul li a {
+    color: #fff !important;
+    font-size: 30px;
+  }
+  .bg_cachorritos h1 {
+    font-size: 45px;
+  }
+  .bg_cachorritos p {
+    font-size: 15px;
+  }
+  #about {
+    margin-bottom: 50px;
+  }
+  .foto_about img {
+    height: 300px;
+  }
+  .container_about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #services {
+    margin-bottom: 50px;
+  }
+  .title_services h2 {
+    color: #8733ff;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .title_services h3 {
+    color: #a01fff;
+    font-size: 15px;
+    text-align: center;
+  }
+  .container_circles {
+    flex-direction: column;
+  }
+  .container_choose {
+    flex-direction: column;
+  }
+  .text_choose {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bg_newsletter {
+    width: 500px;
+    height: 250px;
+  }
+  .bg_newsletter h2 {
+    font-size: 20px;
+  }
+  input[type="email"] {
+    height: 40px;
+    width: 200px;
+  }
+  input[type="submit"] {
+    height: 40px;
+    width: 90px;
+    border: 2px solid #000;
+    background: transparent;
+  }
 }
 
 @media screen and (max-width: 510px) {
-    .bg_cachorritos {
-        height: 340px;
-    }
-    .bg_cachorritos h1 {
-        font-size: 30px;
-    }
-    .bg_cachorritos p {
-        font-size: 12px;
-    }
-    .foto_about img {
-        height: 250px;
-    }
-    .title h3 {
-        font-size: 15px;
-    }
-    .about h2 {
-        font-size: 25px;
-    }
-    .title_services h2 {
-        color: #8733FF;
-        font-size: 19px;
-        margin-top: 20px;
-    }
-    .text_choose > h3 {
-        font-size: 25px;
-    }
-    .about p {
-        font-size: 12px;
-    }
-    .card {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .foto_choose img {
-        height: 250px;
-    }
-    .bg_newsletter {
-        width: 300px;
-        height: 150px;
-    }
-    .bg_newsletter h2 {
-        font-size: 14px;
-    }
-    input[type="email"] {
-        height: 25px;
-        width: 100px;
-    }
-    input[type="email"]::placeholder {
-        font-size: 8px;
-    }
-    input[type="submit"] {
-        height: 25px;
-        width: 60px;
-        font-size: 9px;
-    }
+  .bg_cachorritos {
+    height: 340px;
+  }
+  .bg_cachorritos h1 {
+    font-size: 30px;
+  }
+  .bg_cachorritos p {
+    font-size: 12px;
+  }
+  .foto_about img {
+    height: 250px;
+  }
+  .title h3 {
+    font-size: 15px;
+  }
+  .about h2 {
+    font-size: 25px;
+  }
+  .title_services h2 {
+    color: #8733ff;
+    font-size: 19px;
+    margin-top: 20px;
+  }
+  .text_choose > h3 {
+    font-size: 25px;
+  }
+  .about p {
+    font-size: 12px;
+  }
+  .card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .foto_choose img {
+    height: 250px;
+  }
+  .bg_newsletter {
+    width: 300px;
+    height: 150px;
+  }
+  .bg_newsletter h2 {
+    font-size: 14px;
+  }
+  input[type="email"] {
+    height: 25px;
+    width: 100px;
+  }
+  input[type="email"]::placeholder {
+    font-size: 8px;
+  }
+  input[type="submit"] {
+    height: 25px;
+    width: 60px;
+    font-size: 9px;
+  }
 }

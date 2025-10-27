@@ -1,185 +1,319 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Veterinaria</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 
-    <script src="https://kit.fontawesome.com/15fbf0e0d4.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/15fbf0e0d4.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-wa-number="5491136633061">
     <header>
-        <div class="logo">
-            <img src="img/veterinaria.png" alt="Logo">
-        </div>
-        <i class="fa-solid fa-bars"></i>
-        <nav class="nav">
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#about">Sobre Nosotros</a></li>
-                <li><a href="#services">Servicio</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="img/veterinaria.png" alt="Logo" />
+      </div>
+      <i class="fa-solid fa-bars" aria-label="Abrir menú" role="button"></i>
+      <nav class="nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio" class="active">Inicio</a></li>
+          <li><a href="#about">Sobre Nosotros</a></li>
+          <li><a href="#services">Servicio</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+        <i class="fa-regular fa-moon"></i>
+      </button>
     </header>
 
     <section id="inicio">
-        <div class="bg_cachorritos">
-            <h1>Bienvenidos a <br>
-            <span>Veterinaria</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-            Etiam ultricies quam urna. Proin tempor lectus non consequat <br>
-            imperdiet. Integer eu lacus ut leo viverra cursus.</p>
+      <div class="bg_cachorritos">
+        <h1>
+          Bienvenidos a <br />
+          <span>Veterinaria</span>
+        </h1>
+        <p>
+          Atención cálida y profesional para tus mejores amigos. Citas rápidas,
+          cuidados integrales y amor por los animales.
+        </p>
+        <div class="hero-ctas">
+          <button class="btn primary" data-open-modal="#modal-turno">
+            Pedir turno
+          </button>
+          <a
+            class="btn outline"
+            id="whatsappLink"
+            href="#"
+            target="_blank"
+            rel="noopener"
+            >Escríbenos por WhatsApp</a
+          >
         </div>
+      </div>
     </section>
 
     <section id="about">
-        <div class="container_about">
-            <div class="foto_about">
-                <img src="img/animales_con_dueños_img.png" alt="Foto About">
-            </div>
-            <div class="text_about">
-                <div class="title">
-                    <img src="img/huella_icon.png" alt="Icon Huella">
-                    <h3>Sobre Nosotros</h3>
-                </div>
-                <div class="about">
-                    <h2>Bienvenidos a Veterinaria</h2>
-                    <p>Phasellus in molestie orci. Fusce neque mi, feugiat id cursus ac, <br>
-                    vulputate quis arcu. Ut sit amet tortor nisl. Sed scelerisque venenatis <br>
-                    enim. Nam vel varius odio. Cras ex ligula, varius in lectus eget, pulvinar <br>
-                    luctus quam. Mauris nec neque est. Etiam hendrerit efficitur ante, eu semper <br>
-                    quam molestie ut. <br> <br>
-                    Phasellus in molestie orci. Fusce neque mi, feugiat id cursus ac, <br>
-                    vulputate quis arcu. Ut sit amet tortor nisl. Sed scelerisque venenatis <br>
-                    enim. Nam vel varius odio.</p>
-                </div>
-            </div>
+      <div class="container_about">
+        <div class="foto_about">
+          <img
+            src="img/animales_con_dueños_img.png"
+            alt="Foto About"
+            loading="lazy"
+          />
         </div>
+        <div class="text_about">
+          <div class="title">
+            <img src="img/huella_icon.png" alt="Icon Huella" loading="lazy" />
+            <h3>Sobre Nosotros</h3>
+          </div>
+          <div class="about">
+            <h2>Bienvenidos a Veterinaria</h2>
+            <p>
+              Phasellus in molestie orci. Fusce neque mi, feugiat id cursus ac,
+              <br />
+              vulputate quis arcu. Ut sit amet tortor nisl. Sed scelerisque
+              venenatis <br />
+              enim. Nam vel varius odio. Cras ex ligula, varius in lectus eget,
+              pulvinar <br />
+              luctus quam. Mauris nec neque est. Etiam hendrerit efficitur ante,
+              eu semper <br />
+              quam molestie ut. <br />
+              <br />
+              Phasellus in molestie orci. Fusce neque mi, feugiat id cursus ac,
+              <br />
+              vulputate quis arcu. Ut sit amet tortor nisl. Sed scelerisque
+              venenatis <br />
+              enim. Nam vel varius odio.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="services">
-        <div class="title">
-            <img src="img/huella_icon.png" alt="Icon Huella">
-            <h3>Servicios</h3>
+      <div class="title">
+        <img src="img/huella_icon.png" alt="Icon Huella" loading="lazy" />
+        <h3>Servicios</h3>
+      </div>
+      <div class="title_services">
+        <h2>Servicios de cuidado de mascotas Veterinaria</h2>
+        <h3>Para tus mejores amigos.</h3>
+      </div>
+      <div class="container_circles">
+        <div class="circle">
+          <img src="img/s-1.png" alt="Circle Serivices" loading="lazy" />
+          <h2>Cuidado de mascotas</h2>
+          <p>
+            Phasellus in molestie orci. <br />
+            Fusce neque mi, <br />
+            feugiat id cursus ac
+          </p>
         </div>
-        <div class="title_services">
-            <h2>Servicios de cuidado de mascotas Veterinaria</h2>
-            <h3>Para tus mejores amigos.</h3>
+        <div class="circle">
+          <img src="img/s-2.png" alt="Circle Serivices" loading="lazy" />
+          <h2>Cachorro sentado</h2>
+          <p>
+            Phasellus in molestie orci. <br />
+            Fusce neque mi, <br />
+            feugiat id cursus ac
+          </p>
         </div>
-        <div class="container_circles">
-            <div class="circle">
-                <img src="img/s-1.png" alt="Circle Serivices">
-                <h2>Cuidado de mascotas</h2>
-                <p>Phasellus in molestie orci. <br>
-                Fusce neque mi, <br>
-                feugiat id cursus ac</p>
-            </div>
-            <div class="circle">
-                <img src="img/s-2.png" alt="Circle Serivices">
-                <h2>Cachorro sentado</h2>
-                <p>Phasellus in molestie orci. <br>
-                Fusce neque mi, <br>
-                feugiat id cursus ac</p>
-            </div>
-            <div class="circle">
-                <img src="img/s-3.png" alt="Circle Serivices">
-                <h2>Perro caminando</h2>
-                <p>Phasellus in molestie orci. <br>
-                Fusce neque mi, <br>
-                feugiat id cursus ac</p>
-            </div>
-            <div class="circle">
-                <img src="img/s-4.png" alt="Circle Serivices">
-                <h2>Cuidado nocturno</h2>
-                <p>Phasellus in molestie orci. <br>
-                Fusce neque mi, <br>
-                feugiat id cursus ac</p>
-            </div>
-            <div class="circle">
-                <img src="img/s-5.png" alt="Circle Serivices">
-                <h2>Cuidado de mascotas</h2>
-                <p>Phasellus in molestie orci. <br>
-                Fusce neque mi, <br>
-                feugiat id cursus ac</p>
-            </div>
+        <div class="circle">
+          <img src="img/s-3.png" alt="Circle Serivices" loading="lazy" />
+          <h2>Perro caminando</h2>
+          <p>
+            Phasellus in molestie orci. <br />
+            Fusce neque mi, <br />
+            feugiat id cursus ac
+          </p>
         </div>
+        <div class="circle">
+          <img src="img/s-4.png" alt="Circle Serivices" loading="lazy" />
+          <h2>Cuidado nocturno</h2>
+          <p>
+            Phasellus in molestie orci. <br />
+            Fusce neque mi, <br />
+            feugiat id cursus ac
+          </p>
+        </div>
+        <div class="circle">
+          <img src="img/s-5.png" alt="Circle Serivices" loading="lazy" />
+          <h2>Cuidado de mascotas</h2>
+          <p>
+            Phasellus in molestie orci. <br />
+            Fusce neque mi, <br />
+            feugiat id cursus ac
+          </p>
+        </div>
+      </div>
     </section>
 
     <section id="choose">
-        <div class="container_choose">
-            <div class="foto_choose">
-                <img src="img/gatito.jpg" alt="Foto Choose">
-            </div>
-            <div class="text_choose">
-                <div class="title">
-                    <img src="img/huella_icon.png" alt="Icon Huella">
-                    <h3>Choose</h3>
-                </div>
-                <h3>Por qué elegirnos?</h3>
-                <div class="container_cards">
-                    <div class="card">
-                        <img src="img/c-1.png" alt="">
-                        <div class="text_card">
-                            <h3>Seguridad primero</h3>
-                            <p>Phasellus in molestie orci. Fusce neque mi, feugiat <br>
-                                id cursus ac, vulputate quis arcu. Ut sit amet tortor <br>
-                                nisl. Sed scelerisque venenatis enim. Nam vel varius <br>
-                                odio. Cras ex ligula, varius in lectus eget, pulvinar <br>
-                                luctus quam.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/c-2.png" alt="">
-                        <div class="text_card">
-                            <h3>Patios de juego</h3>
-                            <p>Phasellus in molestie orci. Fusce neque mi, feugiat <br>
-                                id cursus ac, vulputate quis arcu. Ut sit amet tortor <br>
-                                nisl. Sed scelerisque venenatis enim. Nam vel varius <br>
-                                odio. Cras ex ligula, varius in lectus eget, pulvinar <br>
-                                luctus quam.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/c-3.png" alt="">
-                        <div class="text_card">
-                            <h3>Supervise a sus mascotas</h3>
-                            <p>Phasellus in molestie orci. Fusce neque mi, feugiat <br>
-                                id cursus ac, vulputate quis arcu. Ut sit amet tortor <br>
-                                nisl. Sed scelerisque venenatis enim. Nam vel varius <br>
-                                odio. Cras ex ligula, varius in lectus eget, pulvinar <br>
-                                luctus quam.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container_choose">
+        <div class="foto_choose">
+          <img src="img/gatito.jpg" alt="Foto Choose" loading="lazy" />
         </div>
+        <div class="text_choose">
+          <div class="title">
+            <img src="img/huella_icon.png" alt="Icon Huella" loading="lazy" />
+            <h3>Choose</h3>
+          </div>
+          <h3>Por qué elegirnos?</h3>
+          <div class="container_cards">
+            <div class="card">
+              <img src="img/c-1.png" alt="" loading="lazy" />
+              <div class="text_card">
+                <h3>Seguridad primero</h3>
+                <p>
+                  Phasellus in molestie orci. Fusce neque mi, feugiat <br />
+                  id cursus ac, vulputate quis arcu. Ut sit amet tortor <br />
+                  nisl. Sed scelerisque venenatis enim. Nam vel varius <br />
+                  odio. Cras ex ligula, varius in lectus eget, pulvinar <br />
+                  luctus quam.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/c-2.png" alt="" loading="lazy" />
+              <div class="text_card">
+                <h3>Patios de juego</h3>
+                <p>
+                  Phasellus in molestie orci. Fusce neque mi, feugiat <br />
+                  id cursus ac, vulputate quis arcu. Ut sit amet tortor <br />
+                  nisl. Sed scelerisque venenatis enim. Nam vel varius <br />
+                  odio. Cras ex ligula, varius in lectus eget, pulvinar <br />
+                  luctus quam.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/c-3.png" alt="" loading="lazy" />
+              <div class="text_card">
+                <h3>Supervise a sus mascotas</h3>
+                <p>
+                  Phasellus in molestie orci. Fusce neque mi, feugiat <br />
+                  id cursus ac, vulputate quis arcu. Ut sit amet tortor <br />
+                  nisl. Sed scelerisque venenatis enim. Nam vel varius <br />
+                  odio. Cras ex ligula, varius in lectus eget, pulvinar <br />
+                  luctus quam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <div id="contact">
-        <div class="bg_newsletter">
-            <h2>Suscríbete a nuestro boletín</h2>
-            <form action="">
-                <input type="email" name="email" placeholder="Ingrese su Email aqui">
-                <input type="submit" value="Suscribete!!">
-            </form>
+      <div class="bg_newsletter">
+        <h2>Suscríbete a nuestro boletín</h2>
+        <form action="" class="newsletter" id="newsletterForm">
+          <input
+            type="email"
+            name="email"
+            id="newsletterEmail"
+            placeholder="Ingrese su Email aquí"
+            required
+          />
+          <input type="submit" value="Suscribirme" />
+        </form>
+        <div id="newsletterFeedback" aria-live="polite"></div>
+      </div>
+    </div>
+
+    <!-- Modal Turno -->
+    <div
+      class="modal"
+      id="modal-turno"
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+    >
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-dialog" role="document">
+        <div class="modal-header">
+          <h3>Pedir turno</h3>
+          <button class="modal-close" data-close-modal aria-label="Cerrar">
+            &times;
+          </button>
         </div>
+        <form id="turnoForm" class="modal-body">
+          <div class="grid">
+            <label>
+              <span>Nombre y Apellido</span>
+              <input type="text" name="nombre" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              <span>Teléfono</span>
+              <input type="tel" name="telefono" required />
+            </label>
+            <label>
+              <span>Mascota</span>
+              <input
+                type="text"
+                name="mascota"
+                placeholder="Ej: Firulais"
+                required
+              />
+            </label>
+            <label>
+              <span>Servicio</span>
+              <select name="servicio" required>
+                <option value="Consulta">Consulta</option>
+                <option value="Vacunación">Vacunación</option>
+                <option value="Desparasitación">Desparasitación</option>
+                <option value="Peluquería">Peluquería</option>
+              </select>
+            </label>
+            <label>
+              <span>Fecha</span>
+              <input type="date" name="fecha" required />
+            </label>
+            <label>
+              <span>Hora</span>
+              <input type="time" name="hora" required />
+            </label>
+            <label class="full">
+              <span>Comentarios</span>
+              <textarea
+                name="mensaje"
+                rows="3"
+                placeholder="Detalle lo que necesite"
+              ></textarea>
+            </label>
+          </div>
+          <div class="modal-actions">
+            <button type="button" class="btn outline" data-close-modal>
+              Cancelar
+            </button>
+            <button type="submit" class="btn primary">Confirmar turno</button>
+          </div>
+          <div id="turnoFeedback" aria-live="polite"></div>
+        </form>
+      </div>
     </div>
 
     <footer>
-        <p>&copy;Todos los derechos reservados. Typing Timing.</p>
+      <p>&copy;Todos los derechos reservados. Typing Timing.</p>
     </footer>
 
     <script src="js/menu.js"></script>
-</body>
+  </body>
 </html>
